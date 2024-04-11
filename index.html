@@ -9,31 +9,85 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="box-1">
-            <div class="recipe-container" id="recipeContainer"></div>
+    <header class="navbar" id="navbar-section">
+        <div class="logo">
+            <img src="./assets/images/logo.png" alt="Logo">
         </div>
-        <div class="box-2">
-            <h1 id="recipe-title"></h1>
-            <p id="recipe-description"></p>
-            <div id="recipe-ingredients-div">
-                <h3>Ingredients</h3>
-                <ul id="ingredients_list">
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#navbar-section">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#recipe-section">Recipes</a></li>
+                <li><a href="#footer-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                </ul>
+    <br>
+    <section id="about-section">
+        <h1 class="brand-name">Recipe Corner</h1>
+        <p class="brand-desc">Welcome to Recipe Corner, your ultimate destination for culinary inspiration! Whether you're a seasoned chef
+            or just starting your culinary journey, our website offers a treasure trove of delicious recipes, cooking
+            tips, and kitchen hacks to delight your taste buds and elevate your cooking skills.</p>
+    </section>
+
+    <section>
+        <div class="container" id="recipe-section">
+            <div class="box-1">
+                <div class="recipe-container" id="recipeContainer"></div>
             </div>
-            <div id="recipe-instructions">
-                <h3>Cooking Instructions</h3>
-                <ul id="instructions_list">
+            <div class="box-2">
+                <h1 id="recipe-title"></h1>
+                <p id="recipe-description"></p>
+                <div id="recipe-ingredients-div">
+                    <h3>Ingredients</h3>
+                    <ul id="ingredients_list">
 
-                </ul>
-            </div>
-            <!-- Div to contain the YouTube video -->
-            <div id="player">
+                    </ul>
+                </div>
+                <div id="recipe-instructions">
+                    <h3>Cooking Instructions</h3>
+                    <ul id="instructions_list">
 
+                    </ul>
+                </div>
+                <!-- Div to contain the YouTube video -->
+                <div id="player">
+
+                </div>
+                <div>
+                    <h3 class="text-center">Did you Like this recipe?</h3>
+                    <div id="feedback">
+                        <div>
+                            <img id="like-recipe" class="like-unlike" src="./assets/images/like.png" alt="like">
+                            <p id="likes-text">0 likes</p>
+                        </div>
+                        <div>
+                            <img id="unlike-recipe" class="like-unlike" src="./assets/images/unlike.png" alt="unlike">
+                            <p id="unlikes-text">0 dislikes</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="footer-section">
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="copyright">
+                    <p>&copy; 2024 Your Company. All rights reserved.</p>
+                </div>
+                <div class="contact-info">
+                    <p>Contact us:</p>
+                    <p>Email: example@example.com</p>
+                    <p>Phone: +1234567890</p>
+                </div>
+                <!-- Add other ideas here -->
+            </div>
+        </footer>
+
+    </section>
 
     <!-- Load the YouTube iframe API script asynchronously -->
     <script src="https://www.youtube.com/iframe_api"></script>
