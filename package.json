@@ -1,0 +1,18 @@
+{
+  "name": "recipe-website",
+  "version": "1.0.0",
+  "description": "Welcome to our Recipe Website! This repository contains the source code for a platform where you can explore and discover delicious recipes from around the world. Whether you're a seasoned chef or just starting out in the kitchen, we hope you find inspiration and joy in cooking and trying out new recipes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
