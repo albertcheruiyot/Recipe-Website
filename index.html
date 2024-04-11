@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-1">
+            <div class="recipe-container" id="recipeContainer"></div>
+        </div>
+        <div class="box-2">
+            <h1 id="recipe-title"></h1>
+            <p id="recipe-description"></p>
+            <div id="recipe-ingredients-div">
+                <h3>Ingredients</h3>
+                <ul id="ingredients_list">
+
+                </ul>
+            </div>
+            <div id="recipe-instructions">
+                <h3>Cooking Instructions</h3>
+                <ul id="instructions_list">
+
+                </ul>
+            </div>
+            <!-- Div to contain the YouTube video -->
+            <div id="player">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Load the YouTube iframe API script asynchronously -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

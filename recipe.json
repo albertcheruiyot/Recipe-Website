@@ -1,0 +1,117 @@
+{
+  "endpoint": "http://localhost:3000/Recipes",
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper.",
+      "ingredients": [
+        "8 ounces spaghetti",
+        "4 large eggs",
+        "1 cup grated Parmesan cheese",
+        "8 slices pancetta or bacon, chopped",
+        "2 cloves garlic, minced",
+        "Salt and freshly ground black pepper",
+        "Chopped fresh parsley (for garnish)"
+      ],
+      "instructions": [
+        "Cook spaghetti in a large pot of salted boiling water until al dente. Reserve 1/2 cup of pasta water, then drain spaghetti.",
+        "In a mixing bowl, whisk together eggs and Parmesan cheese. Season with salt and pepper.",
+        "In a large skillet, cook pancetta over medium heat until crispy. Add garlic and cook for another minute.",
+        "Add cooked spaghetti to the skillet with pancetta and garlic. Toss to combine.",
+        "Remove skillet from heat and quickly pour in egg mixture, stirring continuously to coat the spaghetti. If the sauce is too thick, add reserved pasta water as needed.",
+        "Serve immediately, garnished with chopped parsley and additional Parmesan cheese if desired."
+      ],
+      "likes": 150,
+      "dislikes": 10,
+      "image": "https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-master768-v2.jpg?w=1280&q=75",
+      "video": "D_2DBLAt57c"
+    },
+    {
+      "id": 2,
+      "title": "Chicken Stir-Fry",
+      "description": "A quick and easy stir-fry recipe with tender chicken and colorful vegetables, tossed in a flavorful sauce.",
+      "ingredients": [
+        "1 lb boneless, skinless chicken breasts, sliced",
+        "2 cups mixed vegetables (bell peppers, broccoli, carrots, snap peas, etc.), sliced",
+        "3 cloves garlic, minced",
+        "1 tablespoon grated ginger",
+        "1/4 cup soy sauce",
+        "2 tablespoons hoisin sauce",
+        "1 tablespoon rice vinegar",
+        "1 tablespoon sesame oil",
+        "Cooked rice, for serving",
+        "Sesame seeds and sliced green onions (for garnish)"
+      ],
+      "instructions": [
+        "In a small bowl, mix together soy sauce, hoisin sauce, rice vinegar, and sesame oil. Set aside.",
+        "Heat a large skillet or wok over medium-high heat. Add a tablespoon of oil.",
+        "Add sliced chicken to the skillet and cook until browned and cooked through. Remove from skillet and set aside.",
+        "In the same skillet, add another tablespoon of oil if needed. Add minced garlic and grated ginger, and cook for 1 minute.",
+        "Add mixed vegetables to the skillet and stir-fry until tender-crisp.",
+        "Return cooked chicken to the skillet. Pour the sauce over the chicken and vegetables, and toss to coat everything evenly.",
+        "Serve hot over cooked rice, garnished with sesame seeds and sliced green onions."
+      ],
+      "likes": 120,
+      "dislikes": 5,
+      "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2021/05/Chicken-Stir-Fry-9.jpg",
+      "video": "h6EaCv-lLQY"
+    },
+    {
+      "id": 3,
+      "title": "Chocolate Chip Cookies",
+      "description": "Classic homemade chocolate chip cookies that are soft, chewy, and full of chocolate chips.",
+      "ingredients": [
+        "2 1/4 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "1/2 teaspoon salt",
+        "1 cup unsalted butter, softened",
+        "3/4 cup granulated sugar",
+        "3/4 cup packed brown sugar",
+        "1 teaspoon vanilla extract",
+        "2 large eggs",
+        "2 cups semisweet chocolate chips"
+      ],
+      "instructions": [
+        "Preheat oven to 375°F (190°C). Line baking sheets with parchment paper.",
+        "In a small bowl, whisk together flour, baking soda, and salt. Set aside.",
+        "In a large mixing bowl, beat together butter, granulated sugar, brown sugar, and vanilla extract until creamy.",
+        "Add eggs one at a time, beating well after each addition.",
+        "Gradually add flour mixture to the wet ingredients, mixing until just combined.",
+        "Stir in chocolate chips.",
+        "Drop tablespoon-sized balls of dough onto prepared baking sheets, spacing them about 2 inches apart.",
+        "Bake in preheated oven for 9-11 minutes, or until cookies are golden brown around the edges.",
+        "Allow cookies to cool on baking sheets for a few minutes before transferring to wire racks to cool completely."
+      ],
+      "likes": 200,
+      "dislikes": 8,
+      "image": "https://handletheheat.com/wp-content/uploads/2020/10/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-637x637-1.jpg",
+      "video": "loqCY9b7aec"
+    },
+    {
+      "id": 4,
+      "title": "Caprese Salad",
+      "description": "A simple and refreshing Italian salad made with fresh tomatoes, mozzarella cheese, basil, and balsamic glaze.",
+      "ingredients": [
+        "4 large ripe tomatoes, sliced",
+        "8 ounces fresh mozzarella cheese, sliced",
+        "Fresh basil leaves",
+        "Extra virgin olive oil",
+        "Balsamic glaze",
+        "Salt and freshly ground black pepper"
+      ],
+      "instructions": [
+        "Arrange tomato and mozzarella slices on a serving platter, alternating them and overlapping slightly.",
+        "Tuck fresh basil leaves between the tomato and mozzarella slices.",
+        "Drizzle extra virgin olive oil over the salad.",
+        "Season with salt and freshly ground black pepper to taste.",
+        "Drizzle balsamic glaze over the salad in a decorative pattern.",
+        "Serve immediately as a refreshing appetizer or side dish."
+      ],
+      "likes": 90,
+      "dislikes": 3,
+      "image": "https://whatsgabycooking.com/wp-content/uploads/2023/06/Dinner-Party-__-Traditional-Caprese-1-1200x800-1.jpg",
+      "video": "gOcfUgd4ekA"
+    }
+  ]
+}
