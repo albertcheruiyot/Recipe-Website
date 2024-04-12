@@ -1,15 +1,3 @@
-const jsonServer = require("json-server"); // importing json-server library
-const server = jsonServer.create();
-const router = jsonServer.router("db.json");
-const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 8080; //  chose port from here like 8080, 3001
-
-server.use(middlewares);
-server.use(router);
-
-server.listen(port);
-
-
 // Fetch the recipes
 var player;
 var totalLikes, totalDislikes;
@@ -112,6 +100,8 @@ document.addEventListener("DOMContentLoaded", function() {
           .catch(error => console.error("Error fetching recipes:", error));
       scrollToRecipe();
       giveFeedback();
+
+      searchFilter();
   }
 
   function giveFeedback(){
@@ -247,3 +237,22 @@ function playVideo(videoId) {
     player.loadVideoById(videoId);
   }
 }
+
+function searchFilter() {
+    // Declare variables
+    var input, filter, divs, div, i, txtValue;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    divs = document.getElementsByClassName("recipe"); // Assuming "recipe" is the class name of the divs you want to search through
+  
+    // Loop through all divs, and hide those which don't match the search query
+    for (i = 0; i < divs.length; i++) {
+      div = divs[i];
+      txtValue = div.textContent || div.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        div.style.display = ""; // Show the div if it matches the search query
+      } else {
+        div.style.display = "none"; // Hide the div if it doesn't match
+      }
+    }
+  }
